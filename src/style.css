@@ -31,8 +31,12 @@ body{
 
 }
 .header .nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    gap: 5rem;
+    background-color: var(--secundary-color);
 }
 .header .logo{
     font-size: 3rem;
@@ -56,6 +60,7 @@ color: var(--color-body);
     font-size: 3rem;
     color: var(--primary-color);
     text-align: center;
+    padding-top: 6rem;
 }
 .header .img-box{
     align-self: center;
@@ -74,6 +79,7 @@ color: var(--color-body);
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
 }
 .main p{
     font-size: 20px;
